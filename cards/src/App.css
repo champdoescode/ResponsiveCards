@@ -1,0 +1,36 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+
+}
+@media screen and (max-width: 370px)
+{
+  .brand-name{
+    display: none;
+  }
+}
+@media screen and (max-width: 769px) {
+    .menu-icon{
+      display: block;
+      height: 100%;
+    }
+    .nav-links{
+      display: none;
+    }
+    .nav-mob-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-container{
+      border-bottom: 1px solid gray;
+    }
+    
+    
+  
+
+}
